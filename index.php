@@ -5,7 +5,7 @@ include 'views/layouts/header.php';
 
 $controller = new ProductsController();
 
-$basePath = '/vending_machine';
+$basePath = '/Vending_Machine-main';
 $uri = $_SERVER['REQUEST_URI'];
 $path = substr($uri, strlen($basePath));
 $path = parse_url($path, PHP_URL_PATH);

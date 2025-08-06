@@ -1,7 +1,7 @@
 <?php
 include '../layouts/header.php';
 require_once __DIR__ . '../../../controllers/ProductsController.php';
-$baseUrl = '/vending_machine';
+$baseUrl = '/Vending_Machine-main';
 if (!isset($_SESSION['user']['id'])) {
     header("Location: login.php");
     exit();

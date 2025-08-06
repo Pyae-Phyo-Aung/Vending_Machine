@@ -50,7 +50,7 @@ if (isset($_POST['login-btn'])) {
                     header("Location: dashboard.php");
                     exit;
                 } else {
-                    header("Location: /vending_machine/");
+                    header("Location: /Vending_Machine-main/");
                     exit;
                 }
             }

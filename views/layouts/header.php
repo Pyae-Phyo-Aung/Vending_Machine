@@ -18,12 +18,12 @@ session_start();
         <?php
         if (isset($_SESSION['user']['role']) && $_SESSION['user']['role'] == "admin") {
         ?>
-          <a class="navbar-brand text-dark" href="/vending_machine/dashboard.php">Vending Machine</a>
-          <a class="navbar-brand" href="/vending_machine/views/products/index.php">Product</a>
-          <a class="navbar-brand" href="/vending_machine/views/users/index.php">User</a>
-          <a class="navbar-brand" href="/vending_machine/views/transactions/index.php">Transaction</a>
+          <a class="navbar-brand text-dark" href="/Vending_Machine-main/dashboard.php">Vending Machine</a>
+          <a class="navbar-brand" href="/Vending_Machine-main/views/products/index.php">Product</a>
+          <a class="navbar-brand" href="/Vending_Machine-main/views/users/index.php">User</a>
+          <a class="navbar-brand" href="/Vending_Machine-main/views/transactions/index.php">Transaction</a>
         <?php } else { ?>
-          <a class="navbar-brand text-dark" href="/vending_machine/">Vending Machine</a>
+          <a class="navbar-brand text-dark" href="/Vending_Machine-main/">Vending Machine</a>
         <?php } ?>
       </div>
       <ul class="d-flex nav justify-content-end mx-5 px-3">
@@ -35,12 +35,12 @@ session_start();
               $username 
             </a>
             <ul class='dropdown-menu'>
-              <li><a class='dropdown-item' href='/vending_machine/logout.php'>Logout</a></li>
+              <li><a class='dropdown-item' href='/Vending_Machine-main/logout.php'>Logout</a></li>
             </ul>
           </li>";
         } else {
           echo "<li class='nav-item'>
-                    <a class='btn btn-primary mr-3' href='/vending_machine/login.php'>Login</a>
+                    <a class='btn btn-primary mr-3' href='/Vending_Machine-main/login.php'>Login</a>
                   </li>";
         }
         ?>
