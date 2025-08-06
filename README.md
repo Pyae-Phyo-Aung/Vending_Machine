@@ -5,10 +5,10 @@
         Clone the project
     </li>
     <li>
-        Run <b>http://localhost/vending_machine/config/db_schema.php </b> file first to build nuccessery tabales. 
+        Run <b>http://localhost/Vending_Machine-main/config/db_schema.php </b> file first to build nuccessery tabales. 
     </li>
     <li>
-        Then Run <b>http://localhost/vending_machine </b>
+        Then Run <b>http://localhost/Vending_Machine-main </b>
     </li>
     
 </ul>
